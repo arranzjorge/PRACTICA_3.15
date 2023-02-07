@@ -1,0 +1,21 @@
+body.body{
+    background-color: lightblue;
+}
+
+h1.titulo{
+    text-align: center;
+    color: blue;
+}
+
+span.S{
+    font-size: 70px;
+    color: black;
+}
+
+header.header{
+    text-align: center;
+}
+
+span.color_rojo{
+    color: red;
+}
