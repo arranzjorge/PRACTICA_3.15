@@ -16,3 +16,8 @@ header.header{
 p.texto::first-line{
     color: red;
 }
+
+a:hover{
+    background-color: yellow;
+    color: red;
+}
