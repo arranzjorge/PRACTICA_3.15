@@ -1,23 +1,32 @@
-body.body{
+body.body {
     background-color: lightblue;
 }
-h1.titulo{
+h1.titulo {
     color: blue;
 }
-h1.titulo::first-letter{
+h1.titulo::first-letter {
     color: black;
     font-size: 60px;
 }
 
-header.header{
+header.header {
     text-align: center;
 }
 
-p.texto::first-line{
+p.texto::first-line {
     color: red;
 }
 
-a:hover{
+a.enlaces_cabecera:hover {
     background-color: yellow;
     color: red;
+}
+
+a.enlaces:visited {
+    background-color: blue;
+    color: white;
+}
+a.enlaces:link {
+    background-color: white;
+    color: blue;
 }
